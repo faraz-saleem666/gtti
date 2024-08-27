@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="from-header">
+            <div class="header-text">
+                <h2>Sign up</h2>
+            </div>
+            <div class="header-close"><button type="button" class="close-button"><i
+                        class="fa-solid fa-circle-xmark fa-xl"></i></button></div>
+        </div>
+        <div class="form-zone1">
+            <h3>Already have an account?</h3><a href="" class="zone1-link">login.</a>
+            <div class="zone1-img"></div>
+        </div>
+        <div class="form-zone2">
+            <h4>Login</h4><i class="fa-solid fa-square-caret-right"></i>
+        </div>
+
+        <form action="submit.php" method="post">
+            <label for="username">Username: <input type="text" name="username" id="username"></label>
+            <label for="password">Password: <input type="text" name="password" id="password"></label>
+            <label for="password-2">Confirm Password: <input type="text" name="password-2" id="password-2"></label>
+            <label for="email">Email Address: <input type="email" name="email" id="email"></label>
+            <label for="first-name">First name: <input type="text" name="first-name" id="first-name"></label>
+            <label for="last-name">Last name: <input type="text" name="last-name" id="last-name"></label>
+            <label for="terms-of-service"><input type="checkbox" name="terms-of-service" id="terms-of-service"> I have
+                read the Grooveshark Terms of Service.</label>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+</body>
+
+</html>

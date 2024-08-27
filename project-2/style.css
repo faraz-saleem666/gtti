@@ -1,0 +1,224 @@
+/* styling the form */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(233, 207, 175);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.from-header {
+    display: flex;
+    background-color: rgb(6, 164, 175);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.header-close {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.close-button {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+.fa-circle-xmark {
+    align-items: end;
+}
+
+.form-zone1 {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.zone1-link {
+    margin-left: 10px;
+}
+
+.form-zone2 {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.fa-solid {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(6, 164, 175);
+}
+label{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styling the home page */
+.homepage-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    box-shadow: 0px 1px 3px 2px rgb(90, 90, 90);
+    background-color: aliceblue;
+}
+
+.slider{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    margin-top: -30px;
+   
+}
+.slider figure{
+    animation: 5s slider infinite;
+}
+.slider figure .bg-img{
+    float: left;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+}
+.bg-img {
+    width: 100%;
+}
+
+
+nav {
+    background-color: rgb(6, 164, 175);
+    box-shadow: 0px 1px 3px 2px rgb(90, 90, 90);
+    width: 70%;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 500;
+}
+main{
+    background-color: aliceblue;
+    width: 70%;
+    height: fit-content;
+    top: -40px;
+    position: relative;
+}
+.main-zone1{
+    display: flex;
+    justify-content: center;
+
+}
+.cards{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+     background-color: rgb(9, 206, 68);
+}
+.two{
+    background-color: rgb(16, 160, 52);
+}
+.three{
+    background-color: rgb(13, 150, 59);
+}
+.four{
+    background-color: rgb(13, 66, 13);
+}
+.content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.col-heading{
+    background-color: rgb(13, 150, 59);
+    padding: 10px;
+}
+footer{
+    width: 80%;
+    height: 5vh;
+    background-color:  rgb(13, 66, 13);
+}
